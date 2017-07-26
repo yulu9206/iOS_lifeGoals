@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		3B1B08B91F28268E00FB5CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08B81F28268E00FB5CE4 /* AppDelegate.swift */; };
-		3B1B08BB1F28268E00FB5CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08BA1F28268E00FB5CE4 /* ViewController.swift */; };
+		3B1B08BB1F28268E00FB5CE4 /* detailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08BA1F28268E00FB5CE4 /* detailVC.swift */; };
 		3B1B08BE1F28268E00FB5CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B08BC1F28268E00FB5CE4 /* Main.storyboard */; };
 		3B1B08C11F28268E00FB5CE4 /* beltProj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08BF1F28268E00FB5CE4 /* beltProj.xcdatamodeld */; };
 		3B1B08C31F28268E00FB5CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B08C21F28268E00FB5CE4 /* Assets.xcassets */; };
 		3B1B08C61F28268E00FB5CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B08C41F28268E00FB5CE4 /* LaunchScreen.storyboard */; };
+		3B1B08CF1F28273800FB5CE4 /* tableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08CE1F28273800FB5CE4 /* tableVC.swift */; };
+		3B1B08D11F28281E00FB5CE4 /* cellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08D01F28281E00FB5CE4 /* cellDelegate.swift */; };
+		3B1B08D31F28284F00FB5CE4 /* cellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08D21F28284F00FB5CE4 /* cellVC.swift */; };
+		3B1B08D61F2831C300FB5CE4 /* Goal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08D41F2831C300FB5CE4 /* Goal+CoreDataClass.swift */; };
+		3B1B08D71F2831C300FB5CE4 /* Goal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08D51F2831C300FB5CE4 /* Goal+CoreDataProperties.swift */; };
+		3B1B08D91F2831E300FB5CE4 /* settingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B08D81F2831E300FB5CE4 /* settingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B1B08B51F28268E00FB5CE4 /* beltProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beltProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1B08B81F28268E00FB5CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B1B08BA1F28268E00FB5CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B1B08BA1F28268E00FB5CE4 /* detailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailVC.swift; sourceTree = "<group>"; };
 		3B1B08BD1F28268E00FB5CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B1B08C01F28268E00FB5CE4 /* beltProj.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = beltProj.xcdatamodel; sourceTree = "<group>"; };
 		3B1B08C21F28268E00FB5CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1B08C51F28268E00FB5CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B1B08C71F28268E00FB5CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1B08CE1F28273800FB5CE4 /* tableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableVC.swift; sourceTree = "<group>"; };
+		3B1B08D01F28281E00FB5CE4 /* cellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellDelegate.swift; sourceTree = "<group>"; };
+		3B1B08D21F28284F00FB5CE4 /* cellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellVC.swift; sourceTree = "<group>"; };
+		3B1B08D41F2831C300FB5CE4 /* Goal+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Goal+CoreDataClass.swift"; path = "../Goal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B1B08D51F2831C300FB5CE4 /* Goal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Goal+CoreDataProperties.swift"; path = "../Goal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B1B08D81F2831E300FB5CE4 /* settingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		3B1B08B71F28268E00FB5CE4 /* beltProj */ = {
 			isa = PBXGroup;
 			children = (
-				3B1B08B81F28268E00FB5CE4 /* AppDelegate.swift */,
-				3B1B08BA1F28268E00FB5CE4 /* ViewController.swift */,
+				3B1B08CD1F2826A600FB5CE4 /* default */,
+				3B1B08BA1F28268E00FB5CE4 /* detailVC.swift */,
+				3B1B08CE1F28273800FB5CE4 /* tableVC.swift */,
 				3B1B08BC1F28268E00FB5CE4 /* Main.storyboard */,
+				3B1B08BF1F28268E00FB5CE4 /* beltProj.xcdatamodeld */,
+				3B1B08D01F28281E00FB5CE4 /* cellDelegate.swift */,
+				3B1B08D21F28284F00FB5CE4 /* cellVC.swift */,
+				3B1B08D81F2831E300FB5CE4 /* settingVC.swift */,
+			);
+			path = beltProj;
+			sourceTree = "<group>";
+		};
+		3B1B08CD1F2826A600FB5CE4 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B08D41F2831C300FB5CE4 /* Goal+CoreDataClass.swift */,
+				3B1B08D51F2831C300FB5CE4 /* Goal+CoreDataProperties.swift */,
+				3B1B08B81F28268E00FB5CE4 /* AppDelegate.swift */,
 				3B1B08C21F28268E00FB5CE4 /* Assets.xcassets */,
 				3B1B08C41F28268E00FB5CE4 /* LaunchScreen.storyboard */,
 				3B1B08C71F28268E00FB5CE4 /* Info.plist */,
-				3B1B08BF1F28268E00FB5CE4 /* beltProj.xcdatamodeld */,
 			);
-			path = beltProj;
+			name = default;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1B08BB1F28268E00FB5CE4 /* ViewController.swift in Sources */,
+				3B1B08D31F28284F00FB5CE4 /* cellVC.swift in Sources */,
+				3B1B08D61F2831C300FB5CE4 /* Goal+CoreDataClass.swift in Sources */,
+				3B1B08D91F2831E300FB5CE4 /* settingVC.swift in Sources */,
+				3B1B08D11F28281E00FB5CE4 /* cellDelegate.swift in Sources */,
+				3B1B08BB1F28268E00FB5CE4 /* detailVC.swift in Sources */,
+				3B1B08CF1F28273800FB5CE4 /* tableVC.swift in Sources */,
 				3B1B08C11F28268E00FB5CE4 /* beltProj.xcdatamodeld in Sources */,
+				3B1B08D71F2831C300FB5CE4 /* Goal+CoreDataProperties.swift in Sources */,
 				3B1B08B91F28268E00FB5CE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
